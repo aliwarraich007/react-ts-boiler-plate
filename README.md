@@ -28,50 +28,50 @@ This boiler plate is not yet fully complete and there is no code in the files. H
 
 ### Folder structure
 
-`src/
+src/
 ├─ @core/
-│  ├─ constants/
-│  │  ├─ any-constants-go-here
-│  ├─ utils/
-│  │  ├─ helper-functions/classes-go-here
-│  │  ├─ dummy-data.json
-│  ├─ config/
-│  │  ├─ any-configuration-your-app-may-have
-│  ├─ http/
-│  │  ├─ api/
-│  │  │  ├─ api-routes.ts
-│  │  │  ├─ api-endpoints.ts
-│  │  ├─ axios/
-│  │  │  ├─ get.axios.ts
-│  │  │  ├─ post.axios.ts
-│  │  ├─ api-error-handler/
-│  │  │  ├─ error-handler.ts
-│  ├─ router/
-│  │  ├─ route-configuration-go-here
-│  ├─ redux/
-│  │  ├─ user/
-│  │  │  ├─ relevant-reducer-actions-go-here
-│  │  ├─ store.redux.ts
-│  │  ├─ root-reducer.ts
-│  ├─ interfaces/
-│  │  ├─ any-interfaces-here
+│ ├─ constants/
+│ │ ├─ any-constants-go-here
+│ ├─ utils/
+│ │ ├─ helper-functions/classes-go-here
+│ │ ├─ dummy-data.json
+│ ├─ config/
+│ │ ├─ any-configuration-your-app-may-have
+│ ├─ http/
+│ │ ├─ api/
+│ │ │ ├─ api-routes.ts
+│ │ │ ├─ api-endpoints.ts
+│ │ ├─ axios/
+│ │ │ ├─ get.axios.ts
+│ │ │ ├─ post.axios.ts
+│ │ ├─ api-error-handler/
+│ │ │ ├─ error-handler.ts
+│ ├─ router/
+│ │ ├─ route-configuration-go-here
+│ ├─ redux/
+│ │ ├─ user/
+│ │ │ ├─ relevant-reducer-actions-go-here
+│ │ ├─ store.redux.ts
+│ │ ├─ root-reducer.ts
+│ ├─ interfaces/
+│ │ ├─ any-interfaces-here
 ├─ @ui/
-│  ├─ pages/
-│  │  ├─ home/
-│  │  │  ├─ sections/
-│  │  │  │  ├─ index.sections.tsx
-│  │  │  ├─ home.page.tsx
-│  │  │  ├─ styles/
+│ ├─ pages/
+│ │ ├─ home/
+│ │ │ ├─ sections/
+│ │ │ │ ├─ index.sections.tsx
+│ │ │ ├─ home.page.tsx
+│ │ │ ├─ styles/
 ├─ shared/
-│  ├─ components/
-│  │  ├─ Buttons/
-│  │  │  ├─ button.component.tsx
-│  │  │  ├─ button.component.style.scss
-│  ├─ styles/
-│  │  ├─ _breakPoints.scss
-│  │  ├─ _placeHolders.scss
-│  │  ├─ _mixins.scss
-│  │  ├─ _colors.scss`
+│ ├─ components/
+│ │ ├─ Buttons/
+│ │ │ ├─ button.component.tsx
+│ │ │ ├─ button.component.style.scss
+│ ├─ styles/
+│ │ ├─ \_breakPoints.scss
+│ │ ├─ \_placeHolders.scss
+│ │ ├─ \_mixins.scss
+│ │ ├─ \_colors.scss
 
 ### Folder structure outline
 
