@@ -9,7 +9,7 @@
 ✅ Separations of concerns <br />
 ✅ Separate http tasks <br />
 ✅ Splitting of pages into multiple sections <br />
-✅ Everything is split into smaller componenets <br />
+✅ Everything is split into smaller components <br />
 
 ### Note
 
