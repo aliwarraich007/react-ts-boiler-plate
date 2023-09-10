@@ -1,46 +1,107 @@
-# Getting Started with Create React App
+### React boiler plate ~ TS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+✅ TypeScript
+✅ Latest version of react and typescript
+✅ Separations of concerns
+✅ Separate http tasks
+✅ Splitting of pages into multiple sections.
+✅ Everything is split into smaller componenets.
 
-### `npm start`
+### Note
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This boiler plate is not yet fully complete and there is no code in the files. However, you can adapt the folder structure. This boiler plate also may not be suitable for all type of projects. However it can be forked and modify according to your own style.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Boilerplate will be updated with code and all the necessary components to kickstart the your project at a very fast pace.
+- Libraries will be updated to the latest version regularly.
 
-### `npm test`
+### Current versions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node `v18.17.0`
+- React `v18.2.0`
+- TS `v4.9.5`
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Folder structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`src/
+├─ @core/
+│  ├─ constants/
+│  │  ├─ any-constants-go-here
+│  ├─ utils/
+│  │  ├─ helper-functions/classes-go-here
+│  │  ├─ dummy-data.json
+│  ├─ config/
+│  │  ├─ any-configuration-your-app-may-have
+│  ├─ http/
+│  │  ├─ api/
+│  │  │  ├─ api-routes.ts
+│  │  │  ├─ api-endpoints.ts
+│  │  ├─ axios/
+│  │  │  ├─ get.axios.ts
+│  │  │  ├─ post.axios.ts
+│  │  ├─ api-error-handler/
+│  │  │  ├─ error-handler.ts
+│  ├─ router/
+│  │  ├─ route-configuration-go-here
+│  ├─ redux/
+│  │  ├─ user/
+│  │  │  ├─ relevant-reducer-actions-go-here
+│  │  ├─ store.redux.ts
+│  │  ├─ root-reducer.ts
+│  ├─ interfaces/
+│  │  ├─ any-interfaces-here
+├─ @ui/
+│  ├─ pages/
+│  │  ├─ home/
+│  │  │  ├─ sections/
+│  │  │  │  ├─ index.sections.tsx
+│  │  │  ├─ home.page.tsx
+│  │  │  ├─ styles/
+├─ shared/
+│  ├─ components/
+│  │  ├─ Buttons/
+│  │  │  ├─ button.component.tsx
+│  │  │  ├─ button.component.style.scss
+│  ├─ styles/
+│  │  ├─ _breakPoints.scss
+│  │  ├─ _placeHolders.scss
+│  │  ├─ _mixins.scss
+│  │  ├─ _colors.scss`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Folder structure outline
 
-### `npm run eject`
+- `@core` folder contains all the logic that is not related to the UI of the app.
+- `@ui` folder contains all the logic that is related to the UI of the app. The `pages` folder contains the page name and then the splitted section content in the `sections` folder.
+- `shared` folder contains the components and scss files that are to be shared throughout the project.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Last updated
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`10 Sep 23`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Libraries installed
 
-## Learn More
+- React
+- TS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Versions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### `0.0.1`
+
+- Initial commit
+- updated folder structure
+- app not build able - files do not contain any code as of now.
+
+### Author
+
+[Muhammad A.](https://github.com/aliwarraich007 "Muhammad A.") | github
+
+### Contributions
+
+- Any contributions are welcomed.
