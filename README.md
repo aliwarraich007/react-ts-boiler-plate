@@ -4,12 +4,12 @@
 
 ### Features
 
-✅ TypeScript
-✅ Latest version of react and typescript
-✅ Separations of concerns
-✅ Separate http tasks
-✅ Splitting of pages into multiple sections.
-✅ Everything is split into smaller componenets.
+✅ TypeScript <br />
+✅ Latest version of react and typescript <br />
+✅ Separations of concerns <br />
+✅ Separate http tasks <br />
+✅ Splitting of pages into multiple sections <br />
+✅ Everything is split into smaller componenets <br />
 
 ### Note
 
