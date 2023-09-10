@@ -28,6 +28,7 @@ This boiler plate is not yet fully complete and there is no code in the files. H
 
 ### Folder structure
 
+```bash
 src/
 ├─ @core/
 │ ├─ constants/
@@ -72,6 +73,7 @@ src/
 │ │ ├─ \_placeHolders.scss
 │ │ ├─ \_mixins.scss
 │ │ ├─ \_colors.scss
+```
 
 ### Folder structure outline
 
